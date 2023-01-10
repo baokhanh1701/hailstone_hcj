@@ -1,0 +1,66 @@
+body {
+    background-color: antiquewhite;
+  }
+  
+  h1 {
+    font-family: Jetbrains Mono, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  
+  p {
+    font-family: Baskerville;
+    font-size: 20px;
+    padding-left: 10px;
+    border: 1px solid black;
+  }
+
+  .class_1{
+    display: grid;
+    background-color: aquamarine;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+    align-items: center;
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+    background-color: white;
+    color: black;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    padding-top: 50px;
+}
+
+  .class_2{
+    font-family: Baskerville;
+    background-color: aliceblue;
+  }
+
+.btn {
+    position: relative;
+    background-color: pink;
+    color: black;
+    border-radius: 10%;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid red;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn:hover {
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(255, 179, 179);
+    
+}
